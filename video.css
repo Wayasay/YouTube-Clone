@@ -1,0 +1,60 @@
+
+.Image{
+    width:100%;
+
+}
+.video-desc{
+   margin-top: 0;
+   font-size: 16px;
+   font-weight: 500;
+   line-height:20px;
+   margin-bottom: 10px;
+}
+
+
+.thuimage{
+width: 36px;
+border-radius: 50px;
+}
+
+.video-info-grid{
+display: grid;
+grid-template-columns: 50px 1fr;
+}
+
+.thumbnail-row{
+margin-bottom: 12px;
+position: relative;
+}
+
+.video-author,.video-duration{
+font-size: 12px;
+color: rgb(96, 96, 96);
+}
+
+.video-previee{
+width: 300px;
+display: inline-block;
+margin-left: 120px;
+}
+
+.video-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 16px;
+row-gap: 40px;
+}
+.video-time{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+}
